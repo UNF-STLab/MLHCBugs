@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"imageio",
+			"matplotlib",
+			"nibabel",
+			"opencv",
+			"tensorboard",
+			"torchnet",
+			"torchsummary",
+			"torchvision",
+			"tqdm"
+		]
+	}
+}

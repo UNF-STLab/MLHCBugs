@@ -1,0 +1,8 @@
+setuptools
+Numpy >= 1.16
+SciPy >= 1.2
+Scikit-learn >= 0.21
+Joblib >= 0.12
+Nibabel >= 2.5
+Pandas >= 0.24
+matplotlib >= 1.5.1

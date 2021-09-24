@@ -6,10 +6,15 @@
 	],
 	"settings": {
 		"cSpell.words": [
+			"Colobar",
+			"elif",
 			"imageio",
 			"matplotlib",
+			"MLHC",
 			"nibabel",
+			"nilearn",
 			"opencv",
+			"RGAN",
 			"tensorboard",
 			"torchnet",
 			"torchsummary",

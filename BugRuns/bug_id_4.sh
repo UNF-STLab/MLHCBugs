@@ -1,6 +1,6 @@
 #!/bin/bash
-cd repos/RGAN
-source activate MLBugsRGAN
+cd Repos/RGAN
+source activate MLHCBugsRGAN
 export PYTHONPATH=$(pwd):$PYTHONPATH
 
 python experiment.py --settings_file test

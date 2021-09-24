@@ -1,6 +1,6 @@
 #!/bin/bash
-cd repos/breast_cancer_classifier
-source activate MLBugsbreast_cancer_classifier
+cd Repos/breast_cancer_classifier
+source activate MLHCBugsbreast_cancer_classifier
 
 NUM_PROCESSES=10
 DEVICE_TYPE='gpu'

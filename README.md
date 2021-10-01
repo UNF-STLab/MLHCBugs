@@ -6,7 +6,9 @@
 | MZP             | MZP                        |       2        | 2,3                 | None                    |
 | RGAN            | RGAN                       |       1        | 4                   | None                    |
 | nilearn         | nilearn                    |       11       | 5-15                | None                    |
-| lifelines       | lifelines                  |       5        | 16-20               | None                    |
+| lifelines       | lifelines                  |       5        | 16-22               | None                    |
+| nipype          | nipype                     |       8        | 23-28               | None                    |
+| dipy            | dipy                       |       2        | 29-30               | None                    |
 
 
 
@@ -32,3 +34,13 @@ Bug ID description:
 18) qth_survival_time raising ambiguous truth value error #535
 19) Shape mismatch when using conditional_after with strata in CoxPHFitter #880
 20) KMF fit fails with tuples #1034
+21) Error when setting labels=False in plotting.add_at_risk_counts(). #1097
+22) KaplanMeierFitter (interval-censored) issue #1151
+23) if hash difference is found, some reported entries are bogus due to list != tuple:
+24) Iterables are getting miswired #163
+25) Parallel execution of nipype failing #1127
+26) Problems hashing inputs derived from encoding in corner cases #1620
+27) First Level Bayesian Estimation fails #1786
+28) DVARS calculation is incorrect #1821
+29) Inconsistent output for values_from_volume #909
+30) bundles_distances_mdf asymmetric values #2310

@@ -11,7 +11,7 @@ def make_scripts_executable():
     os.system('chmod u+x MLHCBugs_Requirements_Install.sh')
     os.system('chmod u+x MLHCBugs_Set_ID.py')
 
-    for n in range(20):
+    for n in range(30):
         os.system('chmod u+x BugRuns/bug_id_' + str(n+1) + '.sh')
 
 # Creates the repo directory if it does not exits.
@@ -121,6 +121,28 @@ def init_lifelines():
     init_repo(repository_name, python_version,
               repository_git_address, repository_commit)
 
+#https://github.com/nipy/nipype
+def init_nipype():
+
+    repository_name = 'nipype'
+    python_version = '3.7'
+    repository_git_address = 'https://github.com/nipy/nipype.git'
+    repository_commit = 'c06c03d4b65bcaa53674e671829743ffd7a2a615'
+
+    init_repo(repository_name, python_version,
+              repository_git_address, repository_commit)
+
+#https://github.com/dipy/dipy#readme
+def init_dipy():
+
+    repository_name = 'dipy'
+    python_version = '3.7'
+    repository_git_address = 'https://github.com/dipy/dipy.git'
+    repository_commit = 'd78e60b64a52cd140eb302d9a818d186cf560cf9'
+
+    init_repo(repository_name, python_version,
+              repository_git_address, repository_commit)
+
 def main():
 
     # Arguments vector (argv)
@@ -144,6 +166,8 @@ def main():
     repo_dictionary['RGAN'] = init_RGAN
     repo_dictionary['nilearn'] = init_nilearn
     repo_dictionary['lifelines'] = init_lifelines
+    repo_dictionary['nipype'] = init_nipype
+    repo_dictionary['dipy'] = init_dipy
 
     # Process all args and call the function to init the desired repos.
     for repo in repos:

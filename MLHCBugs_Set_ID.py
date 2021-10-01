@@ -179,6 +179,75 @@ def bug_test_lifelines(bug_id: int):
            os.system('cd Repos/lifelines; git checkout ' +
                      '3fe06bc23b53383721dd6efdd54b7ec9a454137d')
 
+    if bug_id == 21:
+
+        if commit_id != '37932adf0037a270d2bb8157c721bdf758a0c2c6':
+           os.system('cd Repos/lifelines; git checkout ' +
+                     '37932adf0037a270d2bb8157c721bdf758a0c2c6')
+
+    if bug_id == 22:
+
+        if commit_id != '519bd3abe6051bd9fb5da0dfffce24ab86171f3f':
+           os.system('cd Repos/lifelines; git checkout ' +
+                     '519bd3abe6051bd9fb5da0dfffce24ab86171f3f')
+
+def bug_test_nipype(bug_id: int):
+
+    commit_id = get_commit_id('nipype')
+
+    if bug_id == 23:
+
+        if commit_id != 'c06c03d4b65bcaa53674e671829743ffd7a2a615':
+           os.system('cd Repos/nipype; git checkout ' +
+                     'c06c03d4b65bcaa53674e671829743ffd7a2a615')
+
+    if bug_id == 24:
+
+        if commit_id != '29def823f78b880ef875681fd00aee54483746f6':
+           os.system('cd Repos/nipype; git checkout ' +
+                     '29def823f78b880ef875681fd00aee54483746f6')
+    
+    if bug_id == 25:
+
+        if commit_id != '6d087090ac556f7535452fa309f2373fb9c3db7a':
+           os.system('cd Repos/nipype; git checkout ' +
+                     '6d087090ac556f7535452fa309f2373fb9c3db7a')
+
+    if bug_id == 26:
+
+        if commit_id != 'e681974b00bf9d4aebef4b5dfd3f27cbbbf620f0':
+           os.system('cd Repos/nipype; git checkout ' +
+                     'e681974b00bf9d4aebef4b5dfd3f27cbbbf620f0')
+
+    if bug_id == 27:
+
+        if commit_id != 'dd2fb79fd9d75823b022907c987f3649e7360a56':
+           os.system('cd Repos/nipype; git checkout ' +
+                     'dd2fb79fd9d75823b022907c987f3649e7360a56')
+
+    if bug_id == 28:
+
+        if commit_id != '7295e6717c7ce2372792131dc0137f089da0f627':
+           os.system('cd Repos/nipype; git checkout ' +
+                     '7295e6717c7ce2372792131dc0137f089da0f627')
+ 
+def bug_test_dipy(bug_id: int):
+
+    commit_id = get_commit_id('dipy')
+
+    if bug_id == 29:
+
+        if commit_id != 'd78e60b64a52cd140eb302d9a818d186cf560cf9':
+           os.system('cd Repos/dipy; git checkout ' +
+                     'd78e60b64a52cd140eb302d9a818d186cf560cf9')
+
+    if bug_id == 30:
+
+        if commit_id != 'f149c756e09f172c3b77a9e6c5b5390cc08af6ea':
+           os.system('cd Repos/dipy; git checkout ' +
+                     'f149c756e09f172c3b77a9e6c5b5390cc08af6ea')
+        
+
 def main():
 
     # Arguments vector (argv)
@@ -214,7 +283,16 @@ def main():
     bug_dictionary[18] = bug_test_lifelines
     bug_dictionary[19] = bug_test_lifelines
     bug_dictionary[20] = bug_test_lifelines
-
+    bug_dictionary[21] = bug_test_lifelines
+    bug_dictionary[22] = bug_test_lifelines
+    bug_dictionary[23] = bug_test_nipype
+    bug_dictionary[24] = bug_test_nipype
+    bug_dictionary[25] = bug_test_nipype
+    bug_dictionary[26] = bug_test_nipype
+    bug_dictionary[27] = bug_test_nipype
+    bug_dictionary[28] = bug_test_nipype
+    bug_dictionary[29] = bug_test_dipy
+    bug_dictionary[30] = bug_test_dipy
 
     bugs = bug_dictionary.keys()
 

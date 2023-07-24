@@ -1,0 +1,23 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip=20.0.2
+  - setuptools=65.3.0
+  - pip:
+      - numpy>=1.6.2
+      - scipy>=0.11
+      - networkx>=1.7
+      - traits>=4.3
+      - python-dateutil>=1.5
+      - nibabel>=2.0.1
+      - future>=0.16.0
+      - simplejson>=3.8.0
+      - prov>=1.5.0
+      - click>=6.6.0
+      - funcsigs
+      - configparser
+      - pytest>=3.0
+      - mock
+      - pydotplus
+install_repo: True

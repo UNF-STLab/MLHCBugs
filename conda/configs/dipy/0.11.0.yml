@@ -1,0 +1,7 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.5
+  - pip=18.0
+  - pip:
+    - dipy==0.11.0

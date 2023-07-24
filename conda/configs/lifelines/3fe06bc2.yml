@@ -1,0 +1,11 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip=20.0.2
+  - pip:
+      - numpy
+      - scipy
+      - pandas
+      - matplotlib
+install_repo: True

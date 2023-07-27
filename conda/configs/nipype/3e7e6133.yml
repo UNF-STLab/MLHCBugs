@@ -1,0 +1,22 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip=20.0.2
+  - setuptools=65.3.0
+  - pip:
+      - click>=6.6.0
+      - networkx>=2.0
+      - nibabel>=2.1.0
+      - numpy>=1.15.3
+      - packaging
+      - prov>=1.5.2
+      - pydot>=1.2.3
+      - python-dateutil>=2.2
+      - rdflib>=5.0.0
+      - scipy>=0.14
+      - simplejson>=3.8.0
+      - traits>=4.6,!=5.0
+      - filelock>=3.0.0
+      - etelemetry>=0.2.0
+install_repo: True

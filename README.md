@@ -49,6 +49,10 @@ A Python Framework that automatically prepares Conda environments and runs saved
 
 The docs directory includes the API Reference and documentation for developers and advance users. Enjoy your automated testing experience! If you encounter any issues or have suggestions for improvements, please feel free to create an issue or submit a pull request. Happy testing!
 
+# Limitations
+
+The framework depends on Conda and PYPI for dependency installation, and the reproduction of bugs is contingent upon the availability of required dependency versions from Conda and PYPI, subject to compatibility with the user's operating system and processor architecture.
+
 # License
 
 This project is licensed under the GNU General Public License v3.0 and you can find the full text of the license in the [LICENSE](LICENSE) file.

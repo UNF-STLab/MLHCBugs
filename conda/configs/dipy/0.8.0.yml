@@ -1,7 +1,7 @@
 channels:
   - conda-forge
 dependencies:
-  - python=3.8
-  - pip=20.0.2
+  - python=3.4
+  - pip=18.0
   - pip:
-    - dipy==1.0.0
+    - dipy==0.8.0

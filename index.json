@@ -4,19 +4,61 @@
         "bugs": [
             {
                 "title": "Inconsistent output for values_from_volume #909",
-                "version": "a8ed7b8f4f5a739d0b487d62dc494335f1d0f057"
+                "Bug_version": "a8ed7b8f4f5a739d0b487d62dc494335f1d0f057",
+                "Fix_version": "0.11.0"
             },
             {
                 "title": "divide by zero error in DiffeomorphicRegistration of small image volumes #1048",
+                "Bug_version": "0.16.0",
+                "Fix_version": "1.0.0"
+            },
+            {
+                "title": "`c_compress_streamline` keeps identical points when it shouldn't #1805",
+                "Bug_version": "1.4.0",
+                "Fix_version": "1.5.0"
+            },
+            {
+                "title": "`bundles_distances_mdf` asymmetric values #2310",
+                "Bug_version": "1.2.0",
+                "Fix_version": "1.5.0"
+            },
+            {
+                "title": "localpca tau_factor is hard coded to 2.3 #2251",
+                "Bug_version": "1.2.0",
+                "Fix_version": "1.3.0"
+            }
+        ]
+    },
+    "dipy_backup": {
+        "url": "https://github.com/dipy/dipy.git",
+        "bugs": [
+            {
+                "title": "Inconsistent output for values_from_volume #909",
+                "version": "a8ed7b8f4f5a739d0b487d62dc494335f1d0f057"
+            },
+            {
+                "title": "Inconsistent output for values_from_volume #90902",
                 "version": "0.11.0"
+            },
+            {
+                "title": "divide by zero error in DiffeomorphicRegistration of small image volumes #104801",
+                "version": "0.16.0"
+            },
+            {
+                "title": "divide by zero error in DiffeomorphicRegistration of small image volumes #104802",
+                "version": "1.0.0"
             },
             {
                 "title": "Error when using TCK files written by dipy #1722",
                 "version": "0.15.0"
             },
             {
-                "title": "`c_compress_streamline` keeps identical points when it shouldn't #1805",
-                "version": "0.16.0"
+                "title": "`c_compress_streamline` keeps identical points when it shouldn't #180501",
+                "version": "1.4.0"
+            },
+            {
+                "title": "`c_compress_streamline` keeps identical points when it shouldn't #180502",
+                "version": "1.5.0"
             },
             {
                 "title": "tracking fails when npeaks=1 for peaks_from_model with tensor model #1807",
@@ -31,8 +73,16 @@
                 "version": "1.2.0"
             },
             {
-                "title": "`bundles_distances_mdf` asymmetric values #2310",
+                "title": "localpca tau_factor is hard coded to 2.3 #2251",
+                "version": "1.3.0"
+            },
+            {
+                "title": "`bundles_distances_mdf` asymmetric values #231001",
                 "version": "1.2.0"
+            },
+            {
+                "title": "`bundles_distances_mdf` asymmetric values #231002",
+                "version": "1.5.0"
             },
             {
                 "title": "Dipy 1.4.1 breaks nipype.interfaces.dipy.dipy_to_nipype_interface #2402",

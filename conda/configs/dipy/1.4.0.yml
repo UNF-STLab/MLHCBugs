@@ -4,4 +4,4 @@ dependencies:
   - python=3.8
   - pip=20.0.2
   - pip:
-    - dipy==1.0.0
+    - dipy==1.4.0

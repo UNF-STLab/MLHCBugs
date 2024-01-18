@@ -1,0 +1,18 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip=20.0.2
+  - pip:
+      - numpy
+      - scipy
+      - matplotlib<2.2.0
+      - pandas
+      - scikit-learn
+      - joblib
+      - pytest
+      - pytest-cov
+      - lxml
+      - codecov
+install_repo: True
+#"Fix_version": "72cd1781744d0dcb763a7b4e112af25986b75548"

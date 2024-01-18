@@ -1,0 +1,7 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pip=18.0
+  - pip:
+    - lifelines==0.14.0

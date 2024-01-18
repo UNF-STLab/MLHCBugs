@@ -1,0 +1,10 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pip=20.0.2
+  - pip:
+    - setuptools<45.0.0
+    - scikit-learn
+    - pytest
+    - nilearn==0.7.0

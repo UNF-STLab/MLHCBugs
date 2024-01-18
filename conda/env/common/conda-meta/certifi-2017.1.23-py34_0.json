@@ -1,0 +1,114 @@
+{
+  "build": "py34_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "python_abi * *_cp34m"
+  ],
+  "depends": [
+    "python 3.4*"
+  ],
+  "extracted_package_dir": "/Users/n01545735/anaconda3/pkgs/certifi-2017.1.23-py34_0",
+  "files": [
+    "lib/python3.4/site-packages/certifi-2017.01.23-py3.4.egg-info",
+    "lib/python3.4/site-packages/certifi/__init__.py",
+    "lib/python3.4/site-packages/certifi/__main__.py",
+    "lib/python3.4/site-packages/certifi/__pycache__/__init__.cpython-34.pyc",
+    "lib/python3.4/site-packages/certifi/__pycache__/__main__.cpython-34.pyc",
+    "lib/python3.4/site-packages/certifi/__pycache__/core.cpython-34.pyc",
+    "lib/python3.4/site-packages/certifi/cacert.pem",
+    "lib/python3.4/site-packages/certifi/core.py",
+    "lib/python3.4/site-packages/certifi/old_root.pem",
+    "lib/python3.4/site-packages/certifi/weak.pem"
+  ],
+  "fn": "certifi-2017.1.23-py34_0.tar.bz2",
+  "license": "ISC",
+  "link": {
+    "source": "/Users/n01545735/anaconda3/pkgs/certifi-2017.1.23-py34_0",
+    "type": 1
+  },
+  "md5": "bcbf415e4d635e7de5f1d2bebab3352a",
+  "name": "certifi",
+  "package_tarball_full_path": "/Users/n01545735/anaconda3/pkgs/certifi-2017.1.23-py34_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.4/site-packages/certifi-2017.01.23-py3.4.egg-info",
+        "path_type": "hardlink",
+        "sha256": "9c0cd38f73a84c39ddd60588e951ab66ea40a0359e529c6bc86da6dfa949d4cf",
+        "sha256_in_prefix": "9c0cd38f73a84c39ddd60588e951ab66ea40a0359e529c6bc86da6dfa949d4cf",
+        "size_in_bytes": 2784
+      },
+      {
+        "_path": "lib/python3.4/site-packages/certifi/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b8a1f1b81e13e3420f463235f3f4d1357830a9419abda0455701013b8e1c7206",
+        "sha256_in_prefix": "b8a1f1b81e13e3420f463235f3f4d1357830a9419abda0455701013b8e1c7206",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "lib/python3.4/site-packages/certifi/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "162398b75165b6cb7bc24f4345ae860a806bf2a054c65350bbf30a25fd3813ab",
+        "sha256_in_prefix": "162398b75165b6cb7bc24f4345ae860a806bf2a054c65350bbf30a25fd3813ab",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "lib/python3.4/site-packages/certifi/__pycache__/__init__.cpython-34.pyc",
+        "path_type": "hardlink",
+        "sha256": "2980484fd73ec95bdc173065f58045b94ec289f99910ea92087d1d7c9ec24e7e",
+        "sha256_in_prefix": "2980484fd73ec95bdc173065f58045b94ec289f99910ea92087d1d7c9ec24e7e",
+        "size_in_bytes": 223
+      },
+      {
+        "_path": "lib/python3.4/site-packages/certifi/__pycache__/__main__.cpython-34.pyc",
+        "path_type": "hardlink",
+        "sha256": "3c2db7bd09df2d49d909ff820f85ad99182b53018a0061f7d1bfa46180c40be9",
+        "sha256_in_prefix": "3c2db7bd09df2d49d909ff820f85ad99182b53018a0061f7d1bfa46180c40be9",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "lib/python3.4/site-packages/certifi/__pycache__/core.cpython-34.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d4dce9c9411a2b4a463cddcb5d6fa6168f985d206977de34203646afc172b93",
+        "sha256_in_prefix": "2d4dce9c9411a2b4a463cddcb5d6fa6168f985d206977de34203646afc172b93",
+        "size_in_bytes": 1132
+      },
+      {
+        "_path": "lib/python3.4/site-packages/certifi/cacert.pem",
+        "path_type": "hardlink",
+        "sha256": "6176cd863fea6cdab9ea1ea1d8ca5d65edc363305385673bea82bbd3a02d2851",
+        "sha256_in_prefix": "6176cd863fea6cdab9ea1ea1d8ca5d65edc363305385673bea82bbd3a02d2851",
+        "size_in_bytes": 328643
+      },
+      {
+        "_path": "lib/python3.4/site-packages/certifi/core.py",
+        "path_type": "hardlink",
+        "sha256": "0eabc820d60d357b29dd2ae593f3516a28b36b0c3ca68de5f2df24b33f97b7a4",
+        "sha256_in_prefix": "0eabc820d60d357b29dd2ae593f3516a28b36b0c3ca68de5f2df24b33f97b7a4",
+        "size_in_bytes": 716
+      },
+      {
+        "_path": "lib/python3.4/site-packages/certifi/old_root.pem",
+        "path_type": "hardlink",
+        "sha256": "1d3d0a21f68cf37ab45c716a1847ac886c9f9a5496b83d91234f805484b6b2b6",
+        "sha256_in_prefix": "1d3d0a21f68cf37ab45c716a1847ac886c9f9a5496b83d91234f805484b6b2b6",
+        "size_in_bytes": 25626
+      },
+      {
+        "_path": "lib/python3.4/site-packages/certifi/weak.pem",
+        "path_type": "hardlink",
+        "sha256": "541e225e492cf16ec3adc398f0972df85c165063275dbdece99a28dc81c99f63",
+        "sha256_in_prefix": "541e225e492cf16ec3adc398f0972df85c165063275dbdece99a28dc81c99f63",
+        "size_in_bytes": 354269
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "87f692aafa92243060f488cfe528a465ffc8a39426aaec3eba1b00397e4aa18a",
+  "size": 227132,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/certifi-2017.1.23-py34_0.tar.bz2",
+  "version": "2017.1.23"
+}

@@ -5,3 +5,4 @@ dependencies:
   - pip=18.0
   - pip:
     - lifelines==0.14.6
+    - pytest

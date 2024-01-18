@@ -4,4 +4,5 @@ dependencies:
   - python=3.8
   - pip=20.0.2
   - pip:
-    - lifelines==0.25.4
+    - lifelines==0.25.6
+    - openpyxl

@@ -4,105 +4,63 @@
         "bugs": [
             {
                 "title": "Inconsistent output for values_from_volume #909",
-                "Bug_version": "a8ed7b8f4f5a739d0b487d62dc494335f1d0f057",
-                "Fix_version": "0.11.0"
+                "bug_version": "a8ed7b8f4f5a739d0b487d62dc494335f1d0f057",
+                "fix_version": "0.11.0"
             },
             {
                 "title": "divide by zero error in DiffeomorphicRegistration of small image volumes #1048",
-                "Bug_version": "0.16.0",
-                "Fix_version": "1.0.0"
+                "bug_version": "0.16.0",
+                "fix_version": "1.0.0"
             },
             {
                 "title": "`c_compress_streamline` keeps identical points when it shouldn't #1805",
-                "Bug_version": "1.4.0",
-                "Fix_version": "1.5.0"
+                "bug_version": "1.4.0",
+                "fix_version": "1.5.0"
             },
             {
                 "title": "`bundles_distances_mdf` asymmetric values #2310",
-                "Bug_version": "1.2.0",
-                "Fix_version": "1.5.0"
+                "bug_version": "1.2.0",
+                "fix_version": "1.5.0"
             },
             {
                 "title": "localpca tau_factor is hard coded to 2.3 #2251",
-                "Bug_version": "1.2.0",
-                "Fix_version": "1.3.0"
-            }
-        ]
-    },
-    "dipy_backup": {
-        "url": "https://github.com/dipy/dipy.git",
-        "bugs": [
-            {
-                "title": "Inconsistent output for values_from_volume #909",
-                "version": "a8ed7b8f4f5a739d0b487d62dc494335f1d0f057"
+                "bug_version": "1.2.0",
+                "fix_version": "1.3.0"
             },
             {
-                "title": "Inconsistent output for values_from_volume #90902",
-                "version": "0.11.0"
-            },
-            {
-                "title": "divide by zero error in DiffeomorphicRegistration of small image volumes #104801",
-                "version": "0.16.0"
-            },
-            {
-                "title": "divide by zero error in DiffeomorphicRegistration of small image volumes #104802",
-                "version": "1.0.0"
-            },
-            {
-                "title": "Error when using TCK files written by dipy #1722",
-                "version": "0.15.0"
-            },
-            {
-                "title": "`c_compress_streamline` keeps identical points when it shouldn't #180501",
-                "version": "1.4.0"
-            },
-            {
-                "title": "`c_compress_streamline` keeps identical points when it shouldn't #180502",
-                "version": "1.5.0"
+                "title": "Threshold default in QballBaseModel #1783",
+                "bug_version": "0.8.0",
+                "fix_version": "1.0.0"
             },
             {
                 "title": "tracking fails when npeaks=1 for peaks_from_model with tensor model #1807",
-                "version": "0.16.0"
-            },
-            {
-                "title": "Issue with sklearn update 0.22 - Attribute Error #2010",
-                "version": "1.0.0"
-            },
-            {
-                "title": "localpca tau_factor is hard coded to 2.3 #2251",
-                "version": "1.2.0"
-            },
-            {
-                "title": "localpca tau_factor is hard coded to 2.3 #2251",
-                "version": "1.3.0"
-            },
-            {
-                "title": "`bundles_distances_mdf` asymmetric values #231001",
-                "version": "1.2.0"
-            },
-            {
-                "title": "`bundles_distances_mdf` asymmetric values #231002",
-                "version": "1.5.0"
+                "bug_version": "0.16.0",
+                "fix_version": "1.0.0"
             },
             {
                 "title": "Dipy 1.4.1 breaks nipype.interfaces.dipy.dipy_to_nipype_interface #2402",
-                "version": "1.4.1"
+                "bug_version": "1.4.1",
+                "fix_version": "1.8.5"
             },
             {
                 "title": "slr_with_qbx breaks when bundle has only one streamline #2530",
-                "version": "1.5.0"
+                "bug_version": "1.6.0",
+                "fix_version": "1.7.0"
             },
             {
                 "title": "StatefulTractogram.are_compatible compare data_per_point keys as list instead of set #2543",
-                "version": "1.5.0"
+                "bug_version": "1.4.0",
+                "fix_version": "1.5.0"
             },
             {
                 "title": "CLI denoise patch_size error #2559",
-                "version": "1.4.1"
+                "bug_version": "1.5.0",
+                "fix_version": "1.6.0"
             },
             {
                 "title": "Saving vtp file error #2572",
-                "version": "1.5.0"
+                "bug_version": "1.5.0",
+                "fix_version": "1.6.0"
             }
         ]
     },
@@ -111,55 +69,68 @@
         "bugs": [
             {
                 "title": "Float weights in Kaplan-Meier #418",
-                "version": "4d22dd929ed1470a39bde484a1b44a141d4ac9d4"
+                "bug_version": "0.14.0",
+                "fix_version": "0.14.6"
             },
             {
                 "title": "`qth_survival_time` raising ambiguous truth value error #535",
-                "version": "0.14.6"
+                "bug_version": "0.14.6",
+                "fix_version": "0.15.0"
             },
             {
                 "title": "Shape mismatch when using `conditional_after` with `strata` in `CoxPHFitter` #880",
-                "version": "0.23.1"
+                "bug_version": "0.23.1",
+                "fix_version": "0.23.2"
             },
             {
                 "title": "KMF fit fails with tuples #1034",
-                "version": "3fe06bc23b53383721dd6efdd54b7ec9a454137d"
+                "bug_version": "0.24.8",
+                "fix_version": "0.24.9"
             },
             {
                 "title": "Error when setting `labels=False` in `plotting.add_at_risk_counts()`. #1097",
-                "version": "0.25.0"
+                "bug_version": "0.25.0",
+                "fix_version": "0.25.1"
             },
             {
                 "title": "`KaplanMeierFitter` (interval-censored) issue #1151",
-                "version": "0.25.4"
+                "bug_version": "0.25.5",
+                "fix_version": "0.25.6"
             },
             {
                 "title": "Issue with interval censoring for `CoxPHFitter` #1158",
-                "version": "0.25.5"
+                "bug_version": "0.25.5",
+                "fix_version": "0.25.6"
             },
             {
                 "title": "Label attribute overwritten in fit method for `ParametricUnivariateFitter` #1170",
-                "version": "0.25.4"
+                "bug_version": "0.25.6",
+                "fix_version": "0.25.7"
             },
             {
                 "title": "Parametric regression fitter `print_summary` fails if no observed events #1172",
-                "version": "be35d268a1ad883c62e364834fee8fbc209dd758"
+                "bug_version": "0.25.6",
+                "fix_version": "0.25.7"
             },
             {
                 "title": "Function `cumulative_hazard_at_times(timeline)` of `NelsonAalenFitter` is not implemented #1174",
-                "version": "48a9b1ae307657678630f16b397eb4c35c800747"
+                "bug_version": "0.25.6",
+                "fix_version": "0.25.7"
             },
             {
                 "title": "How to add factors (categorical variables) when fitting WeibullAFT model #1179",
-                "version": "0.25.6"
+                "bug_version": "0.25.6",
+                "fix_version": "0.25.7"
             },
             {
                 "title": "ValueError in `plot_interval_censored_lifetimes` when passing entry dates #1287",
-                "version": "71f4e4d659870058c33572e7e582654f96c1fcaa"
+                "bug_version": "1.2.0",
+                "fix_version": "1.3.0"
             },
             {
                 "title": "Final time period under observation in the logrank test. #1300",
-                "version": "cd9143a121e367aa2bf25b8908d5e8552af3ba09"
+                "bug_version": "0.26.0",
+                "fix_version": "0.26.2"
             }
         ]
     },
@@ -168,55 +139,68 @@
         "bugs": [
             {
                 "title": "Decoder with ridge_regressor fails on oasis vbm example #2360",
-                "version": "2507b00b0c80857f92b9b92a9c4968dc6a6ba56c"
+                "bug_version": "2507b00b0c80857f92b9b92a9c4968dc6a6ba56c",
+                "fix_version": "0.7.0"
             },
             {
                 "title": "Clean function modifies the input time series object if performing pass-filtering without detrending #2475",
-                "version": "e3d577b5595af3e1c9a05d3be84dbdf1a7c4aa20"
+                "bug_version": "0.6.0",
+                "fix_version": "0.7.0"
             },
             {
                 "title": "Variable defined multiple times #2959",
-                "version": "ac1a934e3b2b4061f894b518c960412df9ea4f11"
+                "bug_version": "0.8.0",
+                "fix_version": "0.8.1"
             },
             {
                 "title": "`node_size` does not work as array-like for `nilearn.plotting.plot_markers` for \"r\" and \"l\" directions #3012",
-                "version": "0.8.1"
+                "bug_version": "0.8.1",
+                "fix_version": "ab77b49d3fbf3e5cf3befc57d2fca34a8ce02178"
             },
             {
                 "title": "`permuted_ols` only returns `h0_fmax` for first regressor #3180",
-                "version": "e7804ebe858349781674c0d2b5c78e27afb52fa1"
+                "bug_version": "0.9.0",
+                "fix_version": "0.10.0"
             },
             {
                 "title": "`get_cluster_table` returns inconsistent result depending on `cluster_threshold` #3200",
-                "version": "0.9.0"
+                "bug_version": "0.9.0",
+                "fix_version": "0.10.0"
             },
             {
                 "title": "`glm.first_level.hemodynamic_models.compute_regressor()` computes wrong TR #3360",
-                "version": "9aa503f599f0835aea2bf9e2720bd5d3e33e941e"
+                "bug_version": "0.9.2",
+                "fix_version": "0.10.1"
             },
             {
                 "title": "Signal clean should not use population standard deviation #3406",
-                "version": "0.9.2"
+                "bug_version": "0.9.2",
+                "fix_version": "0.10.1"
             },
             {
                 "title": "IndexError in non_parametric_inference when using two_sided_test=True #3435",
-                "version": "9a81aaafd1a26bcf72555a3a6469c55f97b8f5a4"
+                "bug_version": "0.10.0",
+                "fix_version": "0.10.1"
             },
             {
                 "title": "Function `non_parametric_inference` ignores any covariates #3464",
-                "version": "b556cd1a293e0f8396ea854b9a73214a8bbd1262"
+                "bug_version": "0.10.0",
+                "fix_version": "0.10.1"
             },
             {
                 "title": "Possible discrepancies between the `Cluster ID` and its label in the `label_map` of `get_clusters_tables` #3561",
-                "version": "0.10.1rc1"
+                "bug_version": "0.10.0",
+                "fix_version": "0.10.1"
             },
             {
                 "title": "Problem with flm_objects as input to `non_parametric_inference()` #3579",
-                "version": "0.10.0"
+                "bug_version": "0.10.0",
+                "fix_version": "0.10.1"
             },
             {
                 "title": "Missing values in `Decoder.cv_params_` when `param_grid` is a list of dicts with different keys #3715",
-                "version": "70450b5ceb03157a249b0b4e36590ef5a674ccb9"
+                "bug_version": "0.10.0",
+                "fix_version": "0.10.2"
             }
         ]
     },
@@ -225,47 +209,58 @@
         "bugs": [
             {
                 "title": "Problems hashing inputs derived from encoding in corner cases #1620",
-                "version": "a746633d72d3e861a4b1a52038dd40a590792e24"
+                "bug_version": "0.13.0-rc1",
+                "fix_version": "0.13.0"
             },
             {
                 "title": "First Level Bayesian Estimation fails #1786",
-                "version": "b76f6779593b1b2e0a7ab784c9c96602503a5ee6"
+                "bug_version": "0.13.0",
+                "fix_version": "0.13.1"
             },
             {
                 "title": "DVARS calculation is incorrect #1821",
-                "version": "c234a019eae38c6fe659aa45280d9bc568c0ae37"
+                "bug_version": "0.13.0-rc1",
+                "fix_version": "0.13.0"
             },
             {
                 "title": "`spm.EstimateModel` additional args broken #2029",
-                "version": "71e214099455d597debd171ad17a625e4a2bedc9"
+                "bug_version": "0.13.0",
+                "fix_version": "0.13.1"
             },
             {
                 "title": "Issue with node name that starts with another node's name #2257",
-                "version": "0.13.1"
+                "bug_version": "1.0.1",
+                "fix_version": "1.0.2"
             },
             {
                 "title": "Problems with PBS plugin #2343",
-                "version": "0.14.0"
+                "bug_version": "0.14.0",
+                "fix_version": "1.0.0"
             },
             {
                 "title": "NiftyReg interface raises ValueError: invalid version number #2615",
-                "version": "1.0.4"
+                "bug_version": "1.0.0",
+                "fix_version": "1.5.0"
             },
             {
                 "title": "FreeSurfer version returns None #2655",
-                "version": "1.1.0"
+                "bug_version": "1.1.0",
+                "fix_version": "1.1.1"
             },
             {
                 "title": "Node de-listifies output lists with a single element #2670",
-                "version": "1.1.0"
+                "bug_version": "1.1.0",
+                "fix_version": "1.1.2"
             },
             {
                 "title": "Normalize12 does not accept an existing file as \"apply_to_files\" input #3030",
-                "version": "1.14.3"
+                "bug_version": "0.10.0",
+                "fix_version": "0.10.1"
             },
             {
                 "title": "Voxelwise dvars explodes with voxels with variance ~1e-19 #3487",
-                "version": "3e7e61339ee7d0e67c917477fa989759fa69a577"
+                "bug_version": "1.8.1",
+                "fix_version": "1.8.3"
             }
         ]
     }

@@ -1,0 +1,77 @@
+{
+  "build": "1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/n01545735/anaconda3/pkgs/sqlite-3.13.0-1",
+  "files": [
+    "bin/sqlite3",
+    "include/sqlite3.h",
+    "include/sqlite3ext.h",
+    "lib/libsqlite3.0.dylib",
+    "lib/libsqlite3.a",
+    "lib/libsqlite3.dylib",
+    "lib/libsqlite3.la",
+    "lib/pkgconfig/sqlite3.pc"
+  ],
+  "fn": "sqlite-3.13.0-1.tar.bz2",
+  "license": "Public-Domain (http://www.sqlite.org/copyright.html)",
+  "license_family": "Public-Domain",
+  "link": {
+    "source": "/Users/n01545735/anaconda3/pkgs/sqlite-3.13.0-1",
+    "type": 1
+  },
+  "md5": "194695ce32f8752cdf1805c4ad8bdc42",
+  "name": "sqlite",
+  "package_tarball_full_path": "/Users/n01545735/anaconda3/pkgs/sqlite-3.13.0-1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/sqlite3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/sqlite3.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/sqlite3ext.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libsqlite3.0.dylib",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libsqlite3.a",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libsqlite3.dylib",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libsqlite3.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "7a2b6c54a400ec5c20fa6f3007d86471339c5db76a119f2329c1563baa3a3d6e"
+      },
+      {
+        "_path": "lib/pkgconfig/sqlite3.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "59bfc96de0e39e308358c8f5d514d3e7edf0c93d5f69fbeb261c919491760535"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "27d1199cf6423dcce14868a26b7b28653b27e44ef9c3cc6459763df27d0fa727",
+  "size": 1430066,
+  "subdir": "osx-64",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/sqlite-3.13.0-1.tar.bz2",
+  "version": "3.13.0"
+}

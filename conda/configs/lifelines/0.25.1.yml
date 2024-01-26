@@ -5,3 +5,5 @@ dependencies:
   - pip=20.0.2
   - pip:
     - lifelines==0.25.1
+    - matplotlib>=3.0
+    - numpy==1.19.0

@@ -183,9 +183,9 @@ def test_compress_streamlines_identical_points():
     TC3 = npt.assert_array_equal(new_sl_3, new_sl_1)
     TC4 = npt.assert_array_equal(new_sl_4, np.array([[1, 1, 1], [3, 3, 3],[1, 1, 1]]))
     if (TC1 == None and TC2 == None and TC3 == None and TC4 == None):
-         print("Test cases excuted to retesting Bug#1805 have passed")
+         print("Test cases executed to retest Bug#1805 has passed")
     else:
-         print("Test cases excuted to retesting Bug#1805 have failed")
+         print("Test cases executed to retest Bug#1805 has failed")
 
           
 test_compress_streamlines_identical_points()

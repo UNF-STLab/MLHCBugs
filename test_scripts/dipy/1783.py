@@ -30,8 +30,8 @@ def test_min_signal_default():
       shm_correct = model_correct.fit(signal).shm_coeff
       assert_equal(shm_default, shm_correct)
       if (shm_default == shm_correct):
-         print("Test case excuted to retesting Bug#1783 have passed")
+         print("Test case executed to retest Bug#1783 has passed")
       else:
-         print("Test case excuted to retesting Bug#1783 have failed")
+         print("Test case executed to retest Bug#1783 has failed")
 
 test_min_signal_default()

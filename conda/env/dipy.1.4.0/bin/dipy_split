@@ -1,0 +1,8 @@
+#!/Users/n01545735/MLHCBugs/conda/env/dipy.1.4.0/bin/python
+
+from dipy.workflows.flow_runner import run_flow
+from dipy.workflows.io import SplitFlow
+
+
+if __name__ == "__main__":
+    run_flow(SplitFlow())

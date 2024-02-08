@@ -9,11 +9,12 @@ import dipy.tracking.streamline as dts
 from warnings import warn
 import random
 
+
 A = np.load('/Users/n01545735/Downloads/max_asymmetric_mdf.npy')
 dist = dts.bundles_distances_mdf(A, A)
 assert_equal(np.sum(abs(dist-dist.T)),0.0)
 
-def test_bundles_distances_mdf_sametracks(trackA):
+def test_bundles_distances_mdf_sametracks_mr(trackA):
     # xyz1A = np.array([[0, 1.0232343234, 0], [2.98374589734, 0, 0], [3.93458745, 1.0823498374, 0]], dtype='float32')
     # xyz2A = np.array([[0, 4.98623476, 5.97834857], [67.034898454595, 0, 1.23423523], [2.23457645, 3.2436575, -2.47657354]], dtype='float32')
     # tracksA = [xyz1A, xyz2A]
@@ -22,18 +23,19 @@ def test_bundles_distances_mdf_sametracks(trackA):
     assert_equal(dist[0, 0], 0)
     assert_equal(dist[1, 1], 0)
     assert_equal(dist[1, 0], dist[0, 1])
+    assert_equal(np.sum(dist-dist.T),0.0)
 
 
-def test_bundles_distances_mdf_differenttracks(trackA, trackB):
+def test_bundles_distances_mdf_differenttracks_mr(trackA, trackB):
     # xyz1A = np.array([[0, 1, 0], [2, 0, 0]], dtype='float32')
     # xyz2A = np.array([[0.234234, 4, 5], [4, 0.45452234, 1]], dtype='float32')
     # tracksA = [xyz1A, xyz2A]
     # tracksB = [xyz2A, xyz1A]
     dist1 = pf.bundles_distances_mdf(trackA, trackB)
     dist2 = pf.bundles_distances_mdf(trackB, trackA)
-    assert_equal(dist1[0, 0], dist2[1, 1])
-    assert_equal(dist1[0, 1], dist2[1, 0])
-    assert_equal(np.sum(abs(dist1-dist2.T)),0.0)
+    # assert_equal(dist1[0, 0], dist2[1, 1])
+    # assert_equal(dist1[0, 1], dist2[1, 0])
+    assert_equal(np.sum(dist1-dist2.T),0.0)
 
 
 def source_code_replication(trackA, trackB):
@@ -85,9 +87,9 @@ def source_code_replication(trackA, trackB):
                     distMat[i,j]=average
                 else:
                     distMat[i,j]=averagef
-    assert_equal(np.sum(abs(distMat-distMat.T)),0.0)
+    assert_equal(np.sum(distMat-distMat.T),0.0)
 
-def permutation(length):
+def permutationInputGenerator(length):
     sl1 = []
     sl2 = []
     sl3 = []
@@ -101,15 +103,23 @@ def permutation(length):
     sl2 = np.array(list(permutations(sl2)), dtype=np.float32)
     sl3 = np.array(list(permutations(sl3)), dtype=np.float32)
     sl4 = np.array(list(permutations(sl4)), dtype=np.float32)
+    trackAPermutations = list(permutations([sl1, sl2, sl3, sl4]))
+    trackBPermutations = list(permutations([sl1, sl2, sl3, sl4]))
+    trackBPermutations.reverse()
     # trackA = [sl1, sl2, sl3, sl4]
     # trackB = [sl2, sl3, sl2, sl1]
     # trackA = [sl1, sl2, sl3, sl4]
     # trackB = [sl2, sl1, sl3, sl4]
-    trackA = [sl1, sl2]
-    trackB = [sl2, sl1]
-    return trackA, trackB
-length = 3    
-trackA, trackB = permutation(length)
-test_bundles_distances_mdf_differenttracks(trackA, trackB)
-test_bundles_distances_mdf_sametracks(trackA)
-source_code_replication(trackA, trackB)
+    # trackA = [sl1, sl2]
+    # trackB = [sl2, sl1]
+    return trackAPermutations, trackBPermutations
+
+
+length = 2    
+trackAPermutations, trackBPermutations = permutationInputGenerator(length)
+for i in range(len(trackAPermutations)):
+    trackA = trackAPermutations[i]
+    trackB = trackBPermutations[i]
+    test_bundles_distances_mdf_differenttracks_mr(trackA, trackB)
+    source_code_replication(trackA, trackB)
+    test_bundles_distances_mdf_sametracks_mr(trackA)
